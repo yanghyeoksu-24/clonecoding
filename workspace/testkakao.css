@@ -1,0 +1,232 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+header{
+  background-color: yellow;
+  height: 80px;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  text-align: center;;
+  /* justify-content: space-between; */
+
+}
+
+nav{
+  border: 3px solid red;
+  width: 1300px;
+  /* height: px; */
+  margin: 15px auto;
+  display: flex;
+  align-items: center;
+}
+
+/* #logo-img{
+  border:1px solid black;
+  margin-right: auto;
+} */
+
+#dropdown-container{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.dropdown{
+  position: relative;
+  margin: 10px;
+}
+
+.dropdown-menu{
+  cursor:pointer;
+  padding: 15px;
+  font-size: 16px;
+  color: black;
+  justify-content: space-between;
+  
+
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: gainsboro;
+  
+}
+
+.dropdown-content ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-content ul li{
+  padding : 12px 16px;
+}
+
+.dropdown-content ul li a{
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content ul li a:hover{
+  background-color: darkgray;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.header-icon{
+  float: right;
+}
+
+
+
+
+
+body{
+  margin: 0px auto;
+  width: 90%;
+}
+
+
+
+
+
+
+
+
+main{
+  background-color: gray;
+  height:3600px;
+}
+
+#div-1{
+  height: 500px;
+  background-color: beige;
+}
+
+#div-2{
+  height: 700px;
+  background-color: salmon;
+}
+
+#div-3{
+  height: 1000px;
+  background-color: yellow;
+}
+
+#div-4{
+  height: 600px;
+  background-color: orange;
+}
+
+#div-5{
+  height: 800px;
+  background-color: red;
+  border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+  background-color: white;
+  height: 500px;
+  width: 1500px;
+  
+}
+
+.footer-outbox-a{
+  display: flex;
+  margin-bottom: 180px;
+  
+}
+
+li{
+  
+  list-style-type: none;
+}
+
+li a{
+  text-decoration-line: none;
+  text-decoration-color: black;
+}
+
+#footer-box{
+  margin: 60px 0px 30px 0px;
+}
+
+.footer-list-a{
+  margin-right: 80px;
+}
+
+.footer-list-b{
+  margin-right: 80px;
+}
+
+.footer-list-c{
+  margin-right: 80px;
+}
+
+.footer-list-d{
+  margin-right: 80px;
+  margin-top:27px;
+}
+
+.footer-list-e{
+  margin-right: 80px;
+}
+
+.footer-list-f{
+  margin-right: 80px;
+}
+
+/* .footer-outbox-b{
+  display: flex;
+} */
+
+.footer-outbox-menu{
+  display: flex;
+  margin-bottom: 25px;
+  bottom: auto;
+  
+}
+
+.footer-outbox-menu li{
+  margin-right: 10px;
+}
+
+.footer-radious{
+  background-color: darkgray;
+  width: 130px;
+  height: 25px;
+  border-radius: 25px;
+  padding: 10px;
+  margin-left:50px;
+  /* list-style-type: none; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
