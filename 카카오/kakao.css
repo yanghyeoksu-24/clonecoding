@@ -4,7 +4,7 @@
 }
 
 header{
-  background-color: yellow;
+  /* background-color: yellow; */
   height: 80px;
   padding: 15px 0;
   display: flex;
@@ -105,7 +105,7 @@ body{
 main{
   margin: 0px auto;
   /* background-color: gray; */
-  height:5800px;
+  height:6300px;
 }
 
 #div-1{
@@ -133,13 +133,21 @@ main{
 
 
 
+
+
 #div-3{
   height: 1000px;
-  background-color: yellow;
   display: flex;
   position: relative;
  
 }
+
+#div3-title{
+  font-size: xx-large;
+  margin-top: 50px;
+}
+
+
 
 
 
@@ -161,7 +169,7 @@ main{
 
 
 .main3-menu1 li{
-  background-color:darkgray;
+  background-color:whitesmoke;
   border-radius: 20px;
   height: 150px;
   width: 650px;
@@ -186,7 +194,7 @@ main{
 
 
 .main3-menu2 li{
-  background-color: darkgray;
+  background-color: whitesmoke;
   border-radius: 20px;
   height: 150px;
   width: 650px;
@@ -207,7 +215,7 @@ main{
 }
 
 .main3-service{
-  background-color: darkgray;
+  background-color: whitesmoke;
   border-radius: 30px;
   height: 70px;
   width: 300px;
@@ -224,13 +232,43 @@ main{
 
 }
 
+.main3-img1{
+  height: 150px;
+}
+
+.main3-img2{
+  height: 130px;
+}
+
+.main3-img3{
+  height: 130px;
+}
+
+.main3-img4{
+  height: 120px;
+  margin-top: 20px;
+}
+
+.main3-img5{
+  height: 130px;
+}
+
+.main3-img6{
+  height: 120px;
+}
+
 
 
 
 
 #div-4{
   height: 1200px;
-  background-color: orange;
+  /* background-color: orange; */
+  
+}
+
+#div-4 h2{
+  margin-left: 100px;
   
 }
 
@@ -247,7 +285,7 @@ main{
 }
 
 .main4-outbox1{
-  background-color: darkgray;
+  background-color: whitesmoke;
   border-radius: 30px;
   height: 200px;
   width: 750px;
@@ -277,12 +315,13 @@ main{
 
 .main4-menu-list3{
   margin-top: 50px;
-  font-size: x-large;
+  font-size: 30px;
+  margin-left: 30px;
 }
 
 
 .main4-outbox2{
-  background-color: darkgray;
+  background-color: whitesmoke;
   border-radius: 30px;
   height: 200px;
   width: 750px;
@@ -308,18 +347,35 @@ main{
   margin-top: 20px;
 }
 
+.main4-menu2-list3{
+
+  margin-top: 50px;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
 .main4-menu3{
+  
   display: flex;
   justify-content: space-between;
 }
 
-.main4-menu3-list{
-  background-color: darkgray;
+.main4-menu3-divlist{
+  background-color: whitesmoke;
   border-radius: 10px;
   height: 150px;
   width: 490px;
   margin-top: 100px;
+
 }
+
+.main4-menu3-list{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+
 
 
 
@@ -328,16 +384,19 @@ main{
 
 
 #div-5{
-  height: 800px;
+  height: 900px;
   /* background-color: red; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
   /* display: flex; */
   
 }
 
+
+
 #div-5 h1{
   font-size: 50px;
-  margin-left: 150px;
+  
+  
 }
 
 .main5-menu{
@@ -352,9 +411,68 @@ main{
 
 
 #div-6{
-  height: 900px;
+  height: 1100px;
   background-color: bisque;
 }
+
+.div6-menu1-box{
+  background-color: darkgray;
+  border-radius: 30px;
+  height: 200px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+
+.div6-boxlist1{
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.div6-boxlist2{
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.div6-menu1-img{
+  margin-left: 120px;
+}
+
+.div6-outbox1{
+  display: flex;
+}
+
+.div6-menu2-img{
+  height: 630px;
+}
+
+.div6-outbox2-menulist{
+  background-color: darkgray;
+  border-radius: 30px;
+  height: 200px;
+  width: 500px;
+  /* display: flex; */
+  
+}
+
+.div6-outbox2-menu1{
+  display: flex;
+}
+
+.div6-outbox2{
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -395,6 +513,7 @@ li a{
 .footer-list-a{
   margin-right: 90px;
   font: bold;
+  
 }
 
 .footer-list-b{
@@ -419,15 +538,19 @@ li a{
   margin-right: 90px;
 }
 
-/* .footer-outbox-b{
+.footer-outbox-b{
   display: flex;
-} */
+}
 
 .footer-outbox-menu{
   display: flex;
   margin-bottom: 25px;
   bottom: auto;
   
+}
+
+.footer-outbox-menu a{
+  color: black;
 }
 
 .footer-outbox-menu li{
@@ -441,10 +564,14 @@ li a{
   border-radius: 25px;
   padding: 10px;
   margin-left:50px;
-  /* list-style-type: none; */
+  list-style-type: none;
 }
 .footer-radious a{
   text-decoration: none;
+}
+
+a{
+  color: black;
 }
 
 
