@@ -105,12 +105,12 @@ body{
 main{
   margin: 0px auto;
   /* background-color: gray; */
-  height:6300px;
+  height:6400px;
 }
 
 #div-1{
   height: 1200px;
-  background-color: beige;
+  /* background-color: beige; */
   display: flex;
   
 }
@@ -124,7 +124,8 @@ main{
 }
 
 #div-2 h1{
-  margin-left: 80px;
+  margin-left: 10px;
+  
 }
 
 
@@ -268,7 +269,9 @@ main{
 }
 
 #div-4 h2{
-  margin-left: 100px;
+  margin-left: 50px;
+  font-size: 50px;
+  margin-bottom: 30px;
   
 }
 
@@ -395,8 +398,7 @@ main{
 
 #div-5 h1{
   font-size: 50px;
-  
-  
+  margin-top: 50px;
 }
 
 .main5-menu{
@@ -412,11 +414,18 @@ main{
 
 #div-6{
   height: 1100px;
-  background-color: bisque;
+  /* background-color: bisque; */
+}
+
+
+.div-6-title{
+  font-size: 30px;
+  margin-bottom: 30px;
+
 }
 
 .div6-menu1-box{
-  background-color: darkgray;
+  background-color: whitesmoke;
   border-radius: 30px;
   height: 200px;
   width: 500px;
@@ -450,22 +459,55 @@ main{
 }
 
 .div6-outbox2-menulist{
-  background-color: darkgray;
+  background-color: whitesmoke;
   border-radius: 30px;
-  height: 200px;
-  width: 500px;
-  /* display: flex; */
+  height: 250px;
+  width: 700px;
+  margin-top: 20px;
+  
   
 }
 
 .div6-outbox2-menu1{
   display: flex;
-}
-
-.div6-outbox2{
   justify-content: space-between;
 }
 
+.div6-menu-content1{
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.div6-menu-content2{
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+
+.div6-boxlist-img{
+  margin-left: 400px;
+}
+
+
+.div6-service{
+  background-color: whitesmoke;
+  border-radius: 30px;
+  height: 100px;
+  width: 330px;
+  margin-left: 600px;
+  font-size: 25px;
+  text-align: center;
+  line-height: 100px;
+  margin-top: 30px;
+}
+
+.div6-boxlist-img{
+  height: 100px;
+  width: 100px;
+  margin-left: 550px;
+  margin-bottom: 30px;
+}
 
 
 
@@ -487,7 +529,7 @@ footer{
   background-color: white;
   height: 500px;
   width: 1500px;
-  
+  margin-top: 100px;
 }
 
 .footer-outbox-a{
@@ -503,7 +545,7 @@ li{
 
 li a{
   text-decoration-line: none;
-  text-decoration-color: black;
+  text-decoration-color: #888888;
 }
 
 #footer-box{
@@ -512,13 +554,11 @@ li a{
 
 .footer-list-a{
   margin-right: 90px;
-  font: bold;
   
 }
 
 .footer-list-b{
   margin-right: 90px;
-  
 }
 
 .footer-list-c{
@@ -558,13 +598,14 @@ li a{
 }
 
 .footer-radious{
-  background-color: darkgray;
+  background-color: whitesmoke;
   width: 130px;
   height: 25px;
   border-radius: 25px;
   padding: 10px;
-  margin-left:50px;
+  margin-left:80px;
   list-style-type: none;
+
 }
 .footer-radious a{
   text-decoration: none;
@@ -573,13 +614,6 @@ li a{
 a{
   color: black;
 }
-
-
-
-
-
-
-
 
 
 
